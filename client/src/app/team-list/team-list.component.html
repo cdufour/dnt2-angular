@@ -1,0 +1,19 @@
+<table class="table table-striped table-bordered">
+  <tr>
+    <th>Nom</th>
+    <th>Pays</th>
+    <th>Joueurs</th>
+  </tr>
+  <tr *ngFor="let team of teams">
+    <td>{{team.name}}</td>
+    <td>{{team.country}}</td>
+    <td>
+      <span
+        *ngFor="let player of getTeamPlayers(team.name)">
+        <a routerLink="/player/{{player.lastname}}">
+          {{player.firstname}} {{player.lastname}}
+        </a>&nbsp;
+      </span>
+    </td>
+  </tr>
+</table>

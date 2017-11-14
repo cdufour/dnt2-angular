@@ -1,0 +1,13 @@
+DNT2 Angular TP
+Tâches
+Créer un composant “team-list”. Ce composant affichera un tableau (stylisé en bootstrap) d’équipes chargées par le biais d’une requête http ajax (appelée depuis un service)
+
+Le tableau aura 3 colonnes: Nom de l’équipe, Pays d’appartenance, Joueurs.
+Chaque joueur de la colonne 3 sera clicable afin d’afficher la page de détails correspondante.
+
+Modifier le formulaire d’ajout d’un joueur. On renseignera l’équipe par le biais d’un menu de sélection et non plus par un champ de saisie
+
+Ajouter dans le menu un lien vers le composant “team-list”
+
+Modalités de transmission
+Me fournir le dossier app avant dimanche 22/10/2017, minuit
